@@ -1,0 +1,72 @@
+object Form1: TForm1
+  Left = 207
+  Height = 611
+  Top = 102
+  Width = 484
+  Caption = 'Form1'
+  ClientHeight = 611
+  ClientWidth = 484
+  Color = clNone
+  LCLVersion = '1.8.2.0'
+  Visible = True
+  object Image1: TImage
+    Left = 40
+    Height = 400
+    Top = 24
+    Width = 400
+  end
+  object ButtonN: TButton
+    Left = 16
+    Height = 25
+    Top = 448
+    Width = 75
+    Caption = 'Noir'
+    OnClick = ButtonNClick
+    TabOrder = 0
+  end
+  object ButtonR: TButton
+    Left = 112
+    Height = 25
+    Top = 448
+    Width = 75
+    Caption = 'Rouge'
+    OnClick = ButtonRClick
+    TabOrder = 1
+  end
+  object Button4c: TButton
+    Left = 208
+    Height = 25
+    Top = 448
+    Width = 75
+    Caption = '4 Couleurs'
+    OnClick = Button4cClick
+    TabOrder = 2
+  end
+  object ButtonLignes: TButton
+    Left = 304
+    Height = 25
+    Top = 448
+    Width = 75
+    Caption = 'Lignes'
+    OnClick = ButtonLignesClick
+    TabOrder = 3
+  end
+  object ButtonEch: TButton
+    Left = 400
+    Height = 25
+    Top = 448
+    Width = 75
+    Caption = 'Echiquier'
+    OnClick = ButtonEchClick
+    TabOrder = 4
+  end
+  object Reinitialiser: TButton
+    Left = 203
+    Height = 48
+    Top = 548
+    Width = 78
+    Caption = 'Reinitialiser'
+    OnClick = ReinitialiserClick
+    TabOrder = 5
+  end
+end
